@@ -1,0 +1,936 @@
+body {
+    margin: 0;
+    line-height: normal;
+    background-color: black;
+}
+
+:root {
+    /* fonts */
+    --font-inter: Inter;
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-lg-3: 18.3px;
+    --font-size-3xl-9: 22.9px;
+    --font-size-8xl-4: 27.4px;
+    --font-size-35xl-9: 54.9px;
+    /* Colors */
+    --color-white: #ffffff;
+    --color-gray: rgba(255, 255, 255, 0.7);
+    /* Gaps */
+    --gap-sm: 14px;
+    /* border radiuses */
+    --br-8xs: 5px;
+}
+
+.bg-layout-icon {
+    position: absolute;
+    height: 99.99%;
+    width: 100%;
+    top: 0.01%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.questions-call {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.questions-call-parent {
+    width: 309px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq-parent,
+.frame-parent,
+.questions-call-parent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.faq-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+}
+
+.frame-parent {
+    width: 996px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: var(--font-size-base);
+}
+
+.vector-icon {
+    height: 95.06%;
+    width: 98.48%;
+    top: 2.38%;
+    right: 0.72%;
+    bottom: 2.57%;
+    left: 0.8%;
+}
+
+.vector-icon,
+.vector-icon1,
+.vector-icon2 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 6px;
+}
+
+.vector-icon2 {
+    height: 11.47%;
+    width: 6.06%;
+    top: 47.83%;
+    right: 14.43%;
+    bottom: 40.7%;
+    left: 79.52%;
+}
+
+.english {
+    position: absolute;
+    top: 23.76%;
+    left: 29.6%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon3 {
+    position: absolute;
+    height: 47.53%;
+    width: 12.87%;
+    top: 26.14%;
+    right: 76.67%;
+    bottom: 26.33%;
+    left: 10.45%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.lang-change {
+    position: relative;
+    width: 142.04px;
+    height: 38.47px;
+    color: var(--color-white);
+}
+
+.netflix-india {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.slide-7,
+.vector-icon4 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.slide-7 {
+    width: calc(100% - 713px);
+    right: 516px;
+    bottom: 166.01px;
+    left: 197px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29px;
+    color: var(--color-gray);
+}
+
+.vector-icon4 {
+    height: 15.31%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 84.69%;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.what-is-netflix {
+    position: absolute;
+    top: 4.96%;
+    left: 2.07%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon5,
+.vector-icon6 {
+    position: absolute;
+    height: 5.47%;
+    width: 2.61%;
+    top: 4.92%;
+    right: 2.35%;
+    bottom: 89.61%;
+    left: 95.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon6 {
+    height: 15.31%;
+    width: 100%;
+    top: 16.91%;
+    right: 0;
+    bottom: 67.78%;
+    left: 0;
+}
+
+.how-much-does {
+    position: absolute;
+    top: 22.01%;
+    left: 2.07%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon7,
+.vector-icon8 {
+    position: absolute;
+    height: 5.47%;
+    width: 2.61%;
+    top: 21.83%;
+    right: 2.35%;
+    bottom: 72.7%;
+    left: 95.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon8 {
+    height: 15.31%;
+    width: 100%;
+    top: 33.82%;
+    right: 0;
+    bottom: 50.87%;
+    left: 0;
+}
+
+.where-can-i {
+    position: absolute;
+    top: 38.92%;
+    left: 2.07%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon10,
+.vector-icon9 {
+    position: absolute;
+    height: 5.47%;
+    width: 2.61%;
+    top: 38.74%;
+    right: 2.35%;
+    bottom: 55.79%;
+    left: 95.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon10 {
+    height: 15.31%;
+    width: 100%;
+    top: 50.87%;
+    right: 0;
+    bottom: 33.82%;
+    left: 0;
+}
+
+.how-do-i {
+    position: absolute;
+    top: 55.83%;
+    left: 2.07%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon11,
+.vector-icon12 {
+    position: absolute;
+    height: 5.47%;
+    width: 2.61%;
+    top: 55.79%;
+    right: 2.35%;
+    bottom: 38.74%;
+    left: 95.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon12 {
+    height: 15.31%;
+    width: 100%;
+    top: 67.78%;
+    right: 0;
+    bottom: 16.91%;
+    left: 0;
+}
+
+.what-can-i {
+    position: absolute;
+    top: 72.74%;
+    left: 2.07%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon13,
+.vector-icon14 {
+    position: absolute;
+    height: 5.47%;
+    width: 2.61%;
+    top: 72.7%;
+    right: 2.35%;
+    bottom: 21.83%;
+    left: 95.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon14 {
+    height: 15.31%;
+    width: 100%;
+    top: 84.69%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.is-netflix-good {
+    position: absolute;
+    top: 89.8%;
+    left: 2.07%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon15 {
+    position: absolute;
+    height: 5.47%;
+    width: 2.61%;
+    top: 89.61%;
+    right: 2.35%;
+    bottom: 4.92%;
+    left: 95.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-parent {
+    position: relative;
+    width: 1313.83px;
+    height: 627.2px;
+    font-size: 27.43px;
+}
+
+.ready-to-watch {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+}
+
+.vector-icon16,
+.vector-icon17,
+.vector-icon18 {
+    position: absolute;
+    height: 55.87%;
+    width: 49.1%;
+    top: 43.27%;
+    right: 41.05%;
+    bottom: 0.86%;
+    left: 9.84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon17,
+.vector-icon18 {
+    height: 57.53%;
+    width: 49.34%;
+    top: 42.47%;
+    right: 40.93%;
+    bottom: 0;
+    left: 9.72%;
+}
+
+.vector-icon18 {
+    height: 55.87%;
+    width: 25.17%;
+    top: 43.27%;
+    right: 14.86%;
+    bottom: 0.86%;
+    left: 59.97%;
+}
+
+.get-started {
+    position: absolute;
+    top: 56.84%;
+    left: 63.08%;
+    font-size: 27.43px;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon19 {
+    position: absolute;
+    height: 17.37%;
+    width: 1.25%;
+    top: 65.14%;
+    right: 17.36%;
+    bottom: 17.49%;
+    left: 81.39%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.email-address {
+    position: absolute;
+    top: 61.63%;
+    left: 11.92%;
+    font-size: 18.29px;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    color: var(--color-gray);
+}
+
+.ready-to-watch-enter-your-ema-parent {
+    position: relative;
+    width: 890px;
+    height: 114.56px;
+    font-size: 22.86px;
+}
+
+.slide-6 {
+    position: absolute;
+    height: 17.84%;
+    width: calc(100% - 125px);
+    top: 70.01%;
+    right: 63px;
+    bottom: 12.16%;
+    left: 62px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 36px;
+    font-size: 54.86px;
+}
+
+.rectangle-icon {
+    position: relative;
+    width: 649.02px;
+    height: 487.45px;
+    object-fit: cover;
+}
+
+.create-profiles-for {
+    margin: 0;
+    font-size: 54.86px;
+}
+
+.send-children-on {
+    margin: 0;
+}
+
+.rectangle-icon1,
+.slide-5 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.slide-5 {
+    top: calc(50% + 342.42px);
+    left: calc(50% - 656.51px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 27.43px;
+}
+
+.rectangle-icon1 {
+    height: 47.27%;
+    width: 62.86%;
+    top: 8.49%;
+    right: 19.76%;
+    bottom: 44.24%;
+    left: 17.37%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.rectangle-icon2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 649.02px;
+    height: 486.53px;
+    object-fit: cover;
+}
+
+.slide-4-img {
+    position: relative;
+    width: 649.02px;
+    height: 486.53px;
+}
+
+.slide-4 {
+    position: absolute;
+    top: 2197.21px;
+    left: 98.26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 21px;
+    font-size: 27.43px;
+}
+
+.rectangle-icon3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 359px;
+    height: 487.45px;
+    object-fit: cover;
+}
+
+.vector-icon20 {
+    height: 24.2%;
+    width: 99.31%;
+    top: 68.68%;
+    right: 0.29%;
+    bottom: 7.13%;
+    left: 0.41%;
+}
+
+.rectangle-icon4,
+.vector-icon20,
+.vector-icon21 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon21 {
+    height: 24.64%;
+    width: 99.88%;
+    top: 68.46%;
+    right: 0;
+    bottom: 6.9%;
+    left: 0.12%;
+    border-radius: 14px;
+}
+
+.rectangle-icon4 {
+    height: 18.75%;
+    width: 18.34%;
+    top: 70.93%;
+    right: 76.92%;
+    bottom: 10.32%;
+    left: 4.73%;
+    object-fit: cover;
+}
+
+.downloading {
+    margin: 0;
+    font-size: var(--font-size-base);
+    color: #0071eb;
+}
+
+.stranger-things-downloading-container {
+    position: absolute;
+    top: 76.37%;
+    left: 28.11%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.rectangle-icon5,
+.vector-icon22 {
+    position: absolute;
+    width: 15.28%;
+    right: 4.62%;
+    left: 80.1%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.rectangle-icon5 {
+    height: 11.25%;
+    top: 75.05%;
+    bottom: 13.69%;
+    object-fit: cover;
+}
+
+.vector-icon22 {
+    height: 14.07%;
+    top: 73.74%;
+    bottom: 12.19%;
+}
+
+.rectangle-parent {
+    position: relative;
+    width: 359.06px;
+    height: 487.45px;
+}
+
+.save-your-favourites {
+    margin: 0;
+    font-size: 27.43px;
+}
+
+.download-your-shows-container {
+    position: relative;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 54.86px;
+}
+
+.slide-3 {
+    position: absolute;
+    top: 1540.78px;
+    left: 208px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 160px;
+}
+
+.enjoy-on-your-container {
+    position: relative;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    display: inline-block;
+    width: 537px;
+    flex-shrink: 0;
+}
+
+.rectangle-icon7 {
+    position: absolute;
+    height: 63.45%;
+    width: 84.39%;
+    top: 19.06%;
+    right: 8.04%;
+    bottom: 17.49%;
+    left: 7.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.slide-2 {
+    position: absolute;
+    top: 878px;
+    left: 91px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 58px;
+    font-size: 54.86px;
+}
+
+.rectangle-icon8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1709px;
+    height: 802.5px;
+    object-fit: cover;
+}
+
+.vector-icon23,
+.vector-icon24 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.vector-icon23 {
+    width: calc(100% + 0.15px);
+    top: 0;
+    right: -0.15px;
+    left: 0;
+    border-radius: var(--br-8xs);
+    height: 65.9px;
+}
+
+.vector-icon24 {
+    width: calc(100% - 3px);
+    top: 2px;
+    right: 1px;
+    left: 2px;
+    border-radius: 4px;
+    height: 62px;
+}
+
+.email-address1 {
+    position: absolute;
+    width: calc(100% - 22px);
+    top: 22px;
+    left: 35px;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.email {
+    position: absolute;
+    width: calc(100% - 1163px);
+    top: 526px;
+    right: 727px;
+    left: 436px;
+    height: 66px;
+    color: var(--color-gray);
+}
+
+.vector-icon25 {
+    position: absolute;
+    width: 100%;
+    top: -66px;
+    right: 233px;
+    left: -30px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 64px;
+}
+
+.get-started1,
+.get-started2 {
+    position: absolute;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+
+.get-started2 {
+    width: calc(100% + 141px);
+    top: -10px;
+    left: 209.15px;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.get-started1 {
+    width: calc(100% - 1207px);
+    top: 526px;
+    right: 239px;
+    left: 968px;
+    height: 64px;
+    font-size: 27.43px;
+}
+
+.ready-to-watch1,
+.unlimited-movies-tv,
+.watch-anywhere-cancel {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    width: 1053px;
+}
+
+.ready-to-watch1,
+.watch-anywhere-cancel {
+    font-size: 27.43px;
+    width: 497px;
+}
+
+.ready-to-watch1 {
+    font-size: 22.86px;
+    width: 837px;
+}
+
+.main-page-text {
+    position: absolute;
+    width: calc(100% - 546px);
+    top: 315px;
+    right: 274px;
+    left: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: center;
+    font-size: 54.86px;
+}
+
+.logo-icon {
+    position: absolute;
+    top: 26.83px;
+    left: 197.49px;
+    width: 169.14px;
+    height: 45.71px;
+}
+
+.vector-icon26 {
+    height: 94.52%;
+    width: 98.63%;
+    top: 2.74%;
+    right: 0.7%;
+    bottom: 2.74%;
+    left: 0.67%;
+}
+
+.vector-icon26,
+.vector-icon27,
+.vector-icon28 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-icon27 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+}
+
+.vector-icon28 {
+    height: 11.41%;
+    width: 6.07%;
+    top: 47.93%;
+    right: 14.42%;
+    bottom: 40.66%;
+    left: 79.51%;
+}
+
+.english1 {
+    position: absolute;
+    top: 21.64%;
+    left: 29.85%;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.vector-icon29 {
+    position: absolute;
+    height: 47.26%;
+    width: 12.89%;
+    top: 26.37%;
+    right: 76.77%;
+    bottom: 26.37%;
+    left: 10.34%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.vector-group,
+.vector-icon30 {
+    position: relative;
+    width: 141.82px;
+    height: 38.69px;
+    z-index: 0;
+}
+
+.vector-icon30 {
+    width: 86.86px;
+    height: 36.57px;
+    z-index: 1;
+}
+
+.sign-in {
+    position: absolute;
+    margin: 0 !important;
+    width: 19.99%;
+    top: 20.02%;
+    left: 73.22%;
+    font-size: var(--font-size-base);
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 2;
+}
+
+.signin {
+    position: absolute;
+    top: 30.34px;
+    right: 197.69px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 26px;
+}
+
+.landing-page {
+    position: relative;
+    width: 100%;
+    height: 5022.49px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18.29px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
